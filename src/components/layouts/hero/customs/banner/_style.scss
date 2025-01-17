@@ -1,0 +1,50 @@
+.banner {
+    width: 100%;
+
+    position: relative;
+    margin: 0 6px 0 26px;
+    min-height: 410px; // Add height for visibility if missing
+    background-size: cover; // Ensure the image covers the container
+    background-position: center bottom; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+  
+    &-content {
+      position: absolute;
+      right: 20px;
+      top: 40%;
+  
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+      }
+  
+      .check-btn {
+        width: 256px;
+        margin-top: 10px;
+        padding: 5px 16px;
+        background-color: var(--yellow);
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: #00000076 0 2px 2px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.1s; // Smooth animations
+      
+        &:hover {
+         text-shadow: none;
+        }
+      
+        &:active {
+         text-shadow: #00000076 0 1px 1px;
+        }
+      }
+      
+    }
+  }
+  

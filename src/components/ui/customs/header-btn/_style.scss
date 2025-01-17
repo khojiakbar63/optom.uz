@@ -1,0 +1,24 @@
+.item {
+  padding: 9px 26px;
+  display: grid;
+  place-items: center;
+  gap: 6px;
+  cursor: pointer;
+  &:hover {
+    background: #f4f4f48d;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+  }
+  &:active {
+    background: #f4f4f4;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+  }
+  .img {
+    width: 24px;
+  }
+  .text {
+    font-size: 14px;
+    color: var(--text-11B);
+  }
+}

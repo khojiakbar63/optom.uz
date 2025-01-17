@@ -1,0 +1,19 @@
+.card {
+  width: 200px;
+  position: relative;
+  &__content {
+    &--title {
+      font-weight: 400;
+      font-size: 14px;
+      color: #01011b;
+      width: 183px;
+      height: 56px;
+      margin-bottom: 16px;
+    }
+    &--price {
+        font-weight: 700;
+        font-size: 14px;
+        caret-color: #01011B;
+    }
+  }
+}

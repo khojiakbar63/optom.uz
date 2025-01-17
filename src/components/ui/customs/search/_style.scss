@@ -1,0 +1,41 @@
+.input-container {
+  margin: 0 20px 0px 30px;
+  width: 100%;
+  min-width: 238px;
+  border-radius: 10px;
+  position: relative;
+// input
+  .input-field {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    border-radius: 10px;
+
+    border: 1px solid var(--middle-pink);
+    &:focus{
+      border: 1px solid var(--dark-pink);}
+  }
+// suffix
+  .suffix-btn {
+    position: absolute;
+    top: 20%;
+    right: 10px;
+    background: var(--light-pink);
+    color: var(--dark-pink);
+    font-weight: 700;
+    font-size: 14px;
+    padding: 2px 17px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      border: 1px solid var(--dark-pink);
+    }
+    &:active {
+      background: var(--dark-pink);
+      color: var(--light-pink);
+    }
+  }
+}

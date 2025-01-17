@@ -1,0 +1,32 @@
+.flexer {
+  display: flex;
+    gap: 30px;
+  .box {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    width: 473px;
+    &__content {
+      .title {
+        font-size: 14px;
+        font-weight: 700;
+        color: #01011b;
+        margin-bottom: 12px;
+      }
+      .desc {
+        font-size: 14px;
+        font-weight: 400;
+        color: #01011b;
+      }
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        .link {
+          color: #0670eb;
+          font-size: 14px;
+        }
+    }
+  }
+}
