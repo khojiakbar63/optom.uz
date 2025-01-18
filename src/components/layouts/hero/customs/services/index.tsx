@@ -5,7 +5,7 @@ import Container from "@/components/container";
 
 const Services: FC = () => {
   return (
-    <div className="custom-border">
+    <div className="custom-border hidden">
       <Container>
         <div className="services">
           {heroServices.map((item) => (

@@ -11,7 +11,7 @@ import {
 const AllCategories: FC = () => {
   return (
     <Select>
-      <SelectTrigger className="text-[var(--text-1F)] w-[164px] h-[48px] px-[24px] border-none hover:bg-[var(--light-grey)] focus:bg-[var(--light-grey)]" showIcon={true}>
+      <SelectTrigger className="text-[var(--text-1F)] w-[164px] h-[48px] px-[24px] border-none hover:bg-[var(--light-grey)] focus:bg-[var(--light-grey)] hidden md:flex" showIcon={true}>
         All Category
       </SelectTrigger>
 

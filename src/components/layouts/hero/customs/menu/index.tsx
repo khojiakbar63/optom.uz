@@ -13,7 +13,7 @@ import "./_style.scss";
 
 const Menu: FC = () => {
   return (
-    <div className="menu">
+    <div className="menu hidden lg:block">
       <div className="menu--content">
         <div className="flex flex-col items-start">
           {heroMenu.map((item) => (

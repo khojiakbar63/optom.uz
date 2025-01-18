@@ -8,7 +8,7 @@ import "./_style.scss";
 
 const HomeComponent:FC = () => {
   return (
-    <div className="home-component">
+    <div className="relative">
       <Hero />
       <Products />
       <Bottom />

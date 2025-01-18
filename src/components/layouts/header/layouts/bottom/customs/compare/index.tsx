@@ -12,10 +12,10 @@ const Compare: FC = () => {
   return (
     <Select>
       <SelectTrigger
-        className="text-[var(--text-1F)] w-[164px] h-[48px] px-[24px] border-none hover:bg-[var(--light-grey)] focus:bg-[var(--light-grey)]"
+        className="flex items-center text-[9px] sm:text-[14px] text-[var(--text-1F)] !w-fit sm:w-[164px] h-[40px] sm:h-[48px]  lg:px-[12px] sm:px-[24px] border-none hover:bg-[var(--light-grey)] focus:bg-[var(--light-grey)]"
         showIcon={false}
       >
-        <img className="w-6 mr-[2px]" src="/compare.svg" alt="location" />
+        <img className="w-3 sm:w-6 mr-[2px]" src="/compare.svg" alt="location" />
         Compare
       </SelectTrigger>
 
